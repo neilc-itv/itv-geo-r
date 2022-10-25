@@ -1,7 +1,7 @@
 
-# itv-geo-r
+# itv-geo
 
-This repository contains R snippets to assist with matching Google Analytics traffic, postcode or other geocoded data to ITV broadcast regions.
+This repository contains R and Python snippets to assist with matching Google Analytics traffic, postcode or other geocoded data to ITV broadcast regions.
 
 For more details please see https://sites.google.com/itv.com/itv-mit-resources
 
