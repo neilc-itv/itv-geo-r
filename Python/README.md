@@ -1,10 +1,9 @@
 
-# itv-geo
+# How to set up and use Google Analytics Reporting API
 
-This repository contains R and Python snippets to assist with matching Google Analytics traffic, postcode or other geocoded data to ITV broadcast regions.
+In order to be able to extract data from GA4 in Python we must set up the Google API. Below details the process for setting the Google Analytics Reporting API.
 
-For more details please see https://sites.google.com/itv.com/itv-mit-resources
-
-If you need access to the resources site (if you see a 404 message), contact:
-neil.charles@itv.com
-alexander.green@itv.com
+1) Create a new project in Google Cloud. Helpful reference: https://cloud.google.com/resource-manager/docs/creating-managing-projects
+2) Give your project access to Analytics Reporting API. Reference: https://developers.google.com/analytics/devguides/reporting/core/v4
+3) Create service account credentials for the project and generate/download keys for it.
+4) Add your service account as a read and analyze user to your GA account.
